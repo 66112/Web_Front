@@ -1,0 +1,51 @@
+hello world
+
+HTML + CSS
+HTML : 结构, CSS : 样式, js : 交互
+
+1、快捷键
+    ctrl + z ：撤销
+    ctrl + y : 返回撤销
+    shift + end : 选中一行中光标后面的内容
+    shift + home : 选中一行中光标前面的内容
+    shift + alt + ↓ : 快速复制一行
+    alt + ↑ 或 ↓ : 快速移动一行
+    tab : 向后缩进, shift + tab : 向前缩进
+
+2、HTML基本结构和属性：
+    HTML: 超文本  标记  语言
+
+    超文本：文本内容 + 非文本内容（图片，音频，视频等）
+    语言：编程语言
+    标记(标签)：<单词>
+        写法分两种：
+            单标签 <headr>
+            双标签 <header></headr>
+    标签可以上下排列，组合嵌套
+    HTML常用标签：http://www.html5star.com/manual/html5label-meaning/
+
+    标签属性：修饰标签，设置当前标签的一些功能
+        <标签 属性1="值1" 属性2="值2">
+
+3、HTML初始代码
+    每个html文件都有的代码，要符合html文件的规范
+    ！+ tab键 : 快速撤销
+
+    <!DOCTYPE html>     文档申明：告诉浏览器这是一个html文件
+    <html lang="en">    html文件的最外层标签：包裹着所有的html标签代码，lang="en"表示是一个英文网站; lang="zh-CN" 表示是中文网
+    <head>
+        <meta charset="UTF-8">  元信息：编写网页中的辅助信息
+        <title>Document</title> Document是网页标题
+    </head>
+    <body>
+        
+    </body>
+    </html>
+ 
+4、HTML注释
+    写法：<!--内容-->
+    快捷方式加注释与删除注释：
+    1、ctrl + /
+    2、先选中，再shift + alt + a
+
+
